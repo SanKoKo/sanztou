@@ -82,6 +82,26 @@ Zawgyi  နဲ႔ေရးထားတာကို Uni  Xtreme လုပ္ခ�
 new SanZtoU(this).XtremlyForceToUni(false);
 
 
+## new updated
+ကၽြန္ေတာ့ library မွာ ေနာက္ထပ္ Feature တစ္ခု ထပ္ထည့္ေပးထားပါတယ္။ အဲ့ဒါကေတာ့ Font Chooser ပါ။ User ကို ေဖာင့္ ေရြးခ်ယ္ေစဖို႔နဲ႔ သူေရြးခ်ယ္ထားတာကို ျပဖို႔ ပံုမွန္အားျဖင့္ ကၽြန္ေတာ္တို႔ေတြ  သူေရြးထားတာကို သိမ္းထားဖို႔ လုိပါတယ္။ 
+
+အခုအသစ္ထပ္ထဲ့လိုက္တဲ့ feature က အဲ့ဒီ ဒုကၡေတြကို ကင္းေစမွာပါ။ အရမ္းလြယ္ပါတယ္။
+
+
+## update feature ကိုသံုးမယ္ဆိုရင္ေတာ့ အရင္ဦးဆံုး ကိုယ့္ project ထဲက စာေတြကို ဘာ Font နဲ႔ေရးထားတယ္ဆိုတာ အရင္ ေအာက္ပါအတုိင္း သတ္မွတ္ေပးရပါမယ္။
+BuildDefaultFont.setProjectDefaultFont(DefaultFont.UNICODE); // uni ဆို uni၊ zawgyiဆို zawgyi သတ္မွတ္ရပါမယ္။
+ၿပီးရင္ေတာ့ ေအာက္ပါအတုိင္း ေဖာ္ျပည့္ data ရယ္ view ရယ္ကို ထည့္လိုက္ယံုပါပဲ။
+
+new SanZtoU(this).autoTextFace(data,tv);
+
+Font chooser ရဲ႕ button ႏွိပ္လိုက္တာသိခ်င္ရင္ 
+startActivityForResult(intent,requestcode); နဲ႔ စစ္ေဆးႏိုင္ပါတယ္။
+
+ေနာက္ဆံုးအေနနဲ႔ 
+Manifest ထဲမွာ ေအာက္ပါအတုိင္း ေၾကျငာဖို႔လိုပါတယ္။ <activity android:name="san.zgyi.uni.MessageView"/>
+
+video tutorial ကို ကၽြန္ေတာ့ရဲ႕ facebook sandevelopment page ထဲမွာ တင္ေပးထားပါတယ္။
+
 library အသံုးျပဳရအဆင္မေျပတာရွိရင္ေသာ္လည္းေကာင္း၊ အၾကံအဥာဏ္ေပးလိုလွ်င္ေသာ္လည္းေကာင္း ကၽြန္ေတာ့္ကိုဆက္သြယ္ႏိုင္ပါတယ္။
 San Software Development Training
 အမွတ္ - ၂၃(စီ) ၊ ပထမထပ္၊ သံလမ္း၊ လိႈင္ၿမိဳ႕နယ္။ ရန္ကုန္။
